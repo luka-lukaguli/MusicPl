@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="6dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginStart="6dp"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/urlclickedNews"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/border"
+        android:padding="6dp">
+        <ImageView
+            android:id="@+id/imgOfSongNews"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#A0E84D"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/NewsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/imgOfSongNews"
+            android:padding="6dp"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:text="Title"
+            android:textColor="#A0E84D"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/Newsinfo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="2dp"
+            android:layout_below="@+id/NewsTitle"
+            android:text="information"
+            android:textColor="#A0E84D"
+            android:textSize="14sp"></TextView>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
